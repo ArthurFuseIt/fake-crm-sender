@@ -15,6 +15,10 @@ import msg from './modules/msg';
 
 console.log('BACKGROUND SCRIPT WORKS!'); // eslint-disable-line no-console
 
+function fancyFeature(){
+  return 'So fancy';
+}
+
 // adding special background notification handlers onConnect / onDisconnect
 function logEvent(ev, context, tabId) {
   console.log(`${ev}: context = ${context}, tabId = ${tabId}`); // eslint-disable-line no-console
