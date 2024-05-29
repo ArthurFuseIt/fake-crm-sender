@@ -1,5 +1,5 @@
 ## Skeleton for Google Chrome extensions
-
+bla bla
 * includes awesome messaging module
 * webpack-based build system
 * full ES6 support with Babel 6
